@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background: rgb(37, 123, 163);
+    justify-content: space-between;
+    padding: 20px
+}
+
+.nav-links li {
+    display: inline;
+    list-style-type: none;
+}
+
+.nav-itens a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.logo {
+    font-style: italic;
+    color: rgb(13, 50, 119);
+    font-style: bold;
+}
+
+.introdução h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: rgb(37, 123, 163);
+    font-size: 30px;
+    font-style: italic;
+}
+
+.introdução {
+    background-color: rgb(13, 50, 119);
+    padding: 50px;
+}
+
+.introdução sub {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.582);
+    padding-left: 150px;
+    font-weight: 900;
+}
+
+footer {
+    background-color: rgb(37, 123, 163);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bloco {
+    display: flexbox;
+    background: lightgrey;
+    border-radius: 8px;
+    max-width: fit-content;
+}
+
+.box-bloco {
+    padding: 30px;
+    width: auto;
+    max-width: 100%;
+    align-items: center;
+}
+
+.bloco img {
+    justify-content: center;
+    padding: 5px;
+    border-radius: 8px;
+    width: auto;
+    max-width: 100%;
+}
